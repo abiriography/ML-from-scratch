@@ -1,11 +1,12 @@
 import numpy as np
+#logistic regression does not give us number/value it gives us catagories.
 class LogisticRegression:
     def __init__(self, learning_rate = 0.01, epochs = 1000):
         self.lr = learning_rate
         self.epoch = epochs
         self.weight = None
         self.bias = None
-    
+    # add sigmoid function - the curve line.
     def sigmoid(self, z):
         return 1 / (1+np.exp(-z))
     

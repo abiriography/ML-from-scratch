@@ -6,3 +6,15 @@ My MSE: 312.28
 Sklearn MSE: 316.99
 <br>
 What bug I found and fixed - the bug i found is i forgot the for loop for epoch in range of self.epochs, which creates more variation on my MSE number and Sklearn MSE number.
+<br>
+<br>
+What Logistic Regression does - Logistic regression pridict catagories not numbers/values.
+<br>
+What sigmoid does - The sigmoid function maps any real number to a value between 0 and 1.
+<br>
+My accuracy = 87% Sklearn accuracy = 90%
+<br>
+<br>
+What KMeans does - it take any three points as a cluster and then measure distance between assign points and make centroid.
+<br>
+what does the plot show - The plot showed 3 colored groups of data points with red X marks showing the center of each cluster.
