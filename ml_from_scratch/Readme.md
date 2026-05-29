@@ -18,3 +18,10 @@ My accuracy = 87% Sklearn accuracy = 90%
 What KMeans does - it take any three points as a cluster and then measure distance between assign points and make centroid.
 <br>
 what does the plot show - The plot showed 3 colored groups of data points with red X marks showing the center of each cluster.
+<br>
+<br>
+## What Naive Bayes Does
+
+Naive Bayes is a machine learning algorithm used for classification tasks such as spam detection. 
+<br> 
+It predicts whether an email is spam or not by analyzing the words in the email and calculating probabilities based on previously seen data.
