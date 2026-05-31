@@ -6,6 +6,7 @@ class LogisticRegression:
         self.epoch = epochs
         self.weight = None
         self.bias = None
+        self.loss_history = []
     # add sigmoid function - the curve line.
     def sigmoid(self, z):
         return 1 / (1+np.exp(-z))
@@ -17,13 +18,23 @@ class LogisticRegression:
 
         for epoch in range(self.epoch):
             z = np.dot(X, self.weight) + self.bias
-            pridiction = self.sigmoid(z)
-            dw = (1/n_samples) * np.dot(X.T, pridiction - y)
-            db = (1/n_samples) * np.sum(pridiction - y)
+            prediction = self.sigmoid(z)
+            dw = (1/n_samples) * np.dot(X.T, prediction - y)
+            db = (1/n_samples) * np.sum(prediction - y)
             self.weight = self.weight - self.lr * dw
             self.bias = self.bias - self.lr * db
+            loss = -np.mean(y * np.log(prediction) + (1 - y) * np.log(1 - prediction))
+            self.loss_history.append(loss)
 
     def predict(self, X):
         z = np.dot(X, self.weight) + self.bias
         probablities = self.sigmoid(z)
         return np.where(probablities >= 0.5, 1, 0)
+    
+    def plot_loss(self):
+        import matplotlib.pyplot as plt
+        plt.plot(self.loss_history)
+        plt.xlabel('Epoch')
+        plt.ylabel('Cross Entropy Loss')
+        plt.title('Loss over time - Logistic Regression')
+        plt.show()

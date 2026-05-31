@@ -12,6 +12,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 # Your model
 my_model = LogisticRegression(learning_rate=0.1, epochs=1000)
 my_model.fit(X_train, y_train)
+my_model.plot_loss()
 my_predictions = my_model.predict(X_test)
 print("Your accuracy:", accuracy_score(y_test, my_predictions))
 
