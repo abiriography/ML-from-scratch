@@ -100,13 +100,11 @@ python logistic_regression.py
 python kmeans.py
 python naive_bayes.py
 python neural_network.py
-```
 
 ## 🎯 Goal
 
 The goal isn't just to get the right answer — it's to understand **why** the answer is right. By building each algorithm by hand and comparing against Scikit-learn, every implementation is both a learning exercise and a validation.
 
----
 
 ## 👤 Author
 
