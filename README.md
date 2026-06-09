@@ -86,8 +86,6 @@ This repository is a personal deep-dive into how Machine Learning algorithms act
 
 ---
 
-## 🚀 Getting Started
-
 
 # Clone the repo
 git clone https://github.com/abiriography/ML-from-scratch.git
