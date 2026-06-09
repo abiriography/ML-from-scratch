@@ -84,23 +84,6 @@ This repository is a personal deep-dive into how Machine Learning algorithms act
 | Matplotlib | Visualizations (K-Means plot) |
 | Scikit-learn | Benchmarking only |
 
----
-
-
-# Clone the repo
-git clone https://github.com/abiriography/ML-from-scratch.git
-cd ML-from-scratch
-
-# Install dependencies
-pip install numpy matplotlib scikit-learn
-
-# Run any algorithm
-python linear_regression.py
-python logistic_regression.py
-python kmeans.py
-python naive_bayes.py
-python neural_network.py
-
 ## 🎯 Goal
 
 The goal isn't just to get the right answer — it's to understand **why** the answer is right. By building each algorithm by hand and comparing against Scikit-learn, every implementation is both a learning exercise and a validation.
