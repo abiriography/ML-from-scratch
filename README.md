@@ -72,7 +72,54 @@ This repository is a personal deep-dive into how Machine Learning algorithms act
 
 ---
 
+5. # Neural Networks
 
+A **neural network** is a computational model inspired by the structure of the human brain. It consists of layers of interconnected nodes (neurons) that learn patterns from data.
+
+---
+
+## How It Works
+
+1. **Input Layer** – Receives raw data (images, text, numbers, etc.)
+2. **Hidden Layers** – Process and transform data through weighted connections
+3. **Output Layer** – Produces the final prediction or classification
+
+Each connection has a **weight** that is adjusted during training to minimize prediction error — a process called **backpropagation**.
+
+---
+
+## Key Concepts
+
+| Term | Description |
+|------|-------------|
+| **Neuron** | Basic unit that receives inputs and fires an output |
+| **Activation Function** | Decides whether a neuron should activate (e.g., ReLU, Sigmoid) |
+| **Loss Function** | Measures how wrong the model's predictions are |
+| **Optimizer** | Adjusts weights to reduce loss (e.g., SGD, Adam) |
+| **Epoch** | One full pass through the training data |
+
+---
+
+## Common Types
+
+- **Feedforward NN** – Simplest form; data flows in one direction
+- **CNN (Convolutional)** – Great for images and spatial data
+- **RNN (Recurrent)** – Handles sequential data like text or time series
+- **Transformer** – Powers modern LLMs like GPT and Claude
+
+---
+
+## Use Cases
+
+- 🖼️ Image recognition
+- 🗣️ Speech & language processing
+- 🎮 Game playing (reinforcement learning)
+- 🏥 Medical diagnosis
+- 📈 Financial forecasting
+
+---
+
+> *Neural networks learn by example — the more quality data they see, the better they get.*
 ---
 
 ## 🛠️ Tech Stack
