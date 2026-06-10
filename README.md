@@ -72,7 +72,7 @@ This repository is a personal deep-dive into how Machine Learning algorithms act
 
 ---
 
-5. # Neural Networks
+### 5. Neural Networks
 
 A **neural network** is a computational model inspired by the structure of the human brain. It consists of layers of interconnected nodes (neurons) that learn patterns from data.
 
